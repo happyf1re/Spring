@@ -1,7 +1,5 @@
 package products;
 
-
-//комментарий для нового коммита
 public class Product {
     int id;
     String title;
