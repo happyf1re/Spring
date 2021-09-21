@@ -21,8 +21,6 @@ public class ProductService {
 
     @Transactional
     public List<Product> getAllProduct() {
-        System.out.println(productRepository.findAllByPriceGreaterThanEqual(100));
-        System.out.println(productRepository.findAllByPriceBetween(50, 100));
         return productRepository.findAll();
     }
     @Transactional
